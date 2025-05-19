@@ -8,7 +8,7 @@ st.title("YOUR PERSONAL CHATBOT🤖")
 llm = ChatOpenAI(
     base_url="https://openrouter.ai/api/v1",
     model_name="deepseek/deepseek-r1:free",
-    api_key="openrouter_api_key",
+    api_key=st.secrets["openrouter_api_key"],
     temperature=0.7
 )
 
