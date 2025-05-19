@@ -1,5 +1,0 @@
-langchain
-streamlit
-openai
-langchain-community
-langchain_openai
