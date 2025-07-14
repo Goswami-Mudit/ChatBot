@@ -10,7 +10,7 @@ st.title("YOUR PERSONAL CHATBOT🤖")
 llm = ChatOpenAI(
     base_url="https://openrouter.ai/api/v1",
     model_name="deepseek/deepseek-r1-0528:free",
-    api_key="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",
+    api_key="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",
     temperature=0.7
 )
 
@@ -35,4 +35,3 @@ if prompt := st.chat_input("Ask anything!"):
     
     st.session_state.messages.append({"role": "assistant", "content": response})
     st.chat_message("assistant").write(response)
- 
